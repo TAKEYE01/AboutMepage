@@ -38,7 +38,22 @@ p {
     font-size: 16px;
 }
 button {
-    background: #add8e6;
+  background: #add8e6;
+  border-radius: 999px;
+  box-shadow: #add8e6 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #434343;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  border: 0;
+}
+button:hover {
+  background: #8fcbdf;
 }
 .pop-up-box {
     display: none;
@@ -74,6 +89,9 @@ button {
     box-shadow: 2px 2px 3px #666;
     -webkit-box-shadow: 2px 2px 3px #666;
     -moz-box-shadow: 2px 2px 3px #666;
+}
+.close:hover {
+    background: #222;
 }
 .contact {
     padding: 20px;
