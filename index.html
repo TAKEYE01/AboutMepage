@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+    <!-- Font links -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
 </head>
 <body>
-    
+    <header>
+        <img id="profilepic" class="profile-picture" src="../AboutMepage/images/profilePicture.png">
+        <h1>Tanner Keyes</h1>
+    </header>
+
+    <article>
+		<h2>About me</h2>
+		<p>My name is Tanner Keyes. I live in Tampa, Florida and I am currently working as an apprentice for Otis Elevators. I went to school for Computer Programming at Edison State Community College and played college baseball at Edison State from 2017 - 2019. I ended my sophomore season with a batting average of .421 and played left field.
+            I love to code on my free time as well as expand my knowledge in web3/blockchain technology. I am currently learning Javascript, HTML, CSS, and solidity. I use ethers.js for communicating smart contracts to the frontend/UI for a better user experience.
+        </p>
+	</article>
+
+    <article>
+        <a onclick="display()"><button class="languages">Languages I have studied</button></a>
+    </article>
+
+    <article>
+        <h2 class="contact">Contact Information</h2>
+        <ul>
+            <button class="phone" onclick="phone()">Phone Number</button>
+            <button class="email" onclick="email()">Email</button>
+        </ul>
+    </article>
+
+    <div class="pop-up-box">
+        <h3 class="studied">Languages I've Studied</h3>
+
+        <ul class="lang-list">
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>Solidity</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Java</li>
+        </ul>
+
+        <a href="javascript:close();" class="close">X</a>
+    </div>
 </body>
 </html>
