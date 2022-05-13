@@ -55,6 +55,14 @@ button {
 button:hover {
   background: #8fcbdf;
 }
+.buttonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttonDiv button {
+    margin: 20px;
+}
 .pop-up-box {
     display: none;
     position: absolute;
